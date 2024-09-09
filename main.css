@@ -21,22 +21,21 @@ main div {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.2;
 }
 
 main div.ball {
   background-color: orange;
   border-radius: 50%;
   animation: aaliyah 2s infinite;
+  transform: translate(-100%, 0);
 }
 
 @keyframes aaliyah {
-  0%,
-  100% {
-    transform: translate(0, 0);
+  0% {
+    transform: translate(-100%, 0);
   }
 
   50% {
-    transform: translate(-100%, 0);
+    transform: translate(100%, 0);
   }
 }
