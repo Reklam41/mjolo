@@ -27,6 +27,16 @@ main div {
 main div.ball {
   background-color: orange;
   border-radius: 50%;
-  animation: ali duration timing-function delay iteration-count direction
-    fill-mode;
+  animation: aaliyah 2s infinite;
+}
+
+@keyframes aaliyah {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, 0);
+  }
 }
