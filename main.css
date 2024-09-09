@@ -18,9 +18,15 @@ main div {
   width: 50px;
   aspect-ratio: 1/1;
   background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
 }
 
 main div.ball {
   background-color: orange;
   border-radius: 50%;
+  animation: ali duration timing-function delay iteration-count direction
+    fill-mode;
 }
